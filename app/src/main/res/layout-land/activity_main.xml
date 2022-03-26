@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="27.2mm"
+        android:layout_height="8.5mm"
+        android:backgroundTint="#3A2E2E"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        android:onClick="goToAdd"
+        android:text="G"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/button12"
+        app:layout_constraintStart_toEndOf="@+id/button21" />
+
+    <Button
+        android:id="@+id/button34"
+        android:layout_width="27.2mm"
+        android:layout_height="8.5mm"
+        android:backgroundTint="#3A2E2E"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        android:onClick="goToAdd"
+        android:text=")"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button17" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="27.2mm"
+        android:layout_height="8.5mm"
+        android:backgroundTint="#3A2E2E"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        android:onClick="goToAdd"
+        android:text="P"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/button22"
+        app:layout_constraintStart_toEndOf="@+id/button31" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="27.2mm"
+        android:layout_height="8.5mm"
+        android:backgroundTint="#3A2E2E"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        android:onClick="goToAdd"
+        android:text="e"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/button14"
+        app:layout_constraintStart_toEndOf="@+id/button29" />
+
+    <Button
+
+        android:id="@+id/button12"
+        android:layout_width="27.2mm"
+        android:layout_height="8.5mm"
+        android:backgroundTint="#3A2E2E"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        android:onClick="goToAdd"
+        android:text="("
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/button34"
+        app:layout_constraintStart_toEndOf="@+id/button17" />
+
+    <Button
+        android:id="@+id/button31"
+        android:layout_width="27.2mm"
+        android:layout_height="8.5mm"
+        android:backgroundTint="#3A2E2E"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        android:onClick="goToAdd"
+        android:text="-"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/button21"
+        app:layout_constraintStart_toEndOf="@+id/button28" />
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="27.2mm"
+        android:layout_height="8.5mm"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        android:onClick="goToAdd"
+        android:text="8"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/button19"
+        app:layout_constraintStart_toEndOf="@+id/button27" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="27.2mm"
+        android:layout_height="8.5mm"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        android:onClick="goToAdd"
+        android:text="7"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/button18"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="27.2mm"
+        android:layout_height="8.5mm"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        android:onClick="goToAdd"
+        android:text="9"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/button20"
+        app:layout_constraintStart_toEndOf="@+id/button26" />
+
+    <Button
+        android:id="@+id/button29"
+        android:layout_width="27.2mm"
+        android:layout_height="8.5mm"
+        android:backgroundTint="#3A2E2E"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        android:onClick="goToAdd"
+        android:text="D"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/button31"
+        app:layout_constraintStart_toEndOf="@+id/button32" />
+
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="27.2mm"
+        android:layout_height="8.5mm"
+        android:backgroundTint="#3A2E2E"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        android:onClick="goToAdd"
+        android:text="C"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/button27"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button33"
+        android:layout_width="27.2mm"
+        android:layout_height="8.5mm"
+        android:backgroundTint="#3A2E2E"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        android:onClick="goToAdd"
+        android:text="÷"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/button26"
+        app:layout_constraintStart_toEndOf="@+id/button30" />
+
+    <Button
+        android:id="@+id/button32"
+        android:layout_width="27.2mm"
+        android:layout_height="8.5mm"
+        android:backgroundTint="#3A2E2E"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        android:onClick="goToAdd"
+        android:text="×"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/button28"
+        app:layout_constraintStart_toEndOf="@+id/button33" />
+
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="27.2mm"
+        android:layout_height="8.5mm"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        android:onClick="goToAdd"
+        android:text="2"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/button15"
+        app:layout_constraintStart_toEndOf="@+id/button23" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="27.2mm"
+        android:layout_height="8.5mm"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        android:onClick="goToAdd"
+        android:text="1"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+
+        android:id="@+id/button24"
+        android:layout_width="27.2mm"
+        android:layout_height="8.5mm"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        android:onClick="goToAdd"
+        android:text="3"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/button16"
+        app:layout_constraintStart_toEndOf="@+id/button25" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="27.2mm"
+        android:layout_height="8.5mm"
+        android:backgroundTint="#3A2E2E"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        android:onClick="goToAdd"
+        android:text="+"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/button17"
+        app:layout_constraintStart_toEndOf="@+id/button20" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="27.2mm"
+        android:layout_height="8.5mm"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        android:onClick="goToAdd"
+        android:text="4"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/button23"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="27.2mm"
+        android:layout_height="8.5mm"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        android:onClick="goToAdd"
+        android:text="5"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/button25"
+        app:layout_constraintStart_toEndOf="@+id/button18" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="27.2mm"
+        android:layout_height="8.5mm"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        android:onClick="goToAdd"
+        android:text="6"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/button24"
+        app:layout_constraintStart_toEndOf="@+id/button19" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="27.2mm"
+        android:layout_height="8.5mm"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        android:onClick="goToAdd"
+        android:text="%"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="27.2mm"
+        android:layout_height="8.5mm"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        android:onClick="goToAdd"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="27.2mm"
+        android:layout_height="8.5mm"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        android:onClick="goToAdd"
+        android:text=","
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button15" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="27.2mm"
+        android:layout_height="17mm"
+        android:backgroundTint="#F26F25"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        android:onClick="goToResult"
+        android:text="="
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button16" />
+
+    <TextView
+        android:id="@+id/operationField"
+        android:layout_width="868dp"
+        android:layout_height="46dp"
+        android:maxLength="52"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/button29"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
